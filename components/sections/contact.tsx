@@ -7,7 +7,7 @@ import { LinkedinIcon } from "../icons/linkedin";
 export function Contact() {
   return (
     <section id="contact" className="scroll-mt-16 py-20 md:py-24">
-      <div className="mx-auto max-width-[1200px] px-5 md:px-8">
+      <div className="mx-auto max-width-[1200px]  md:px-8">
         <div className="flex flex-col items-start gap-6 rounded-3xl bg-secondary p-8 md:items-center md:p-16 md:text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-primary">
             Contact
@@ -31,7 +31,7 @@ export function Contact() {
               rel="noopener noreferrer"
               className="grid h-11 w-11 place-items-center rounded-full text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
-              <GithubIcon className="bg-red" />
+              <GithubIcon />
             </Link>
             <Link
               href="https://www.linkedin.com/in/ernie-hernandez"
